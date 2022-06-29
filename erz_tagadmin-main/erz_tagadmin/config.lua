@@ -15,16 +15,11 @@ Config.ERZOffset = 1.2
 Config.CheckAspetta = 1000
 Config.TagPermessi = false --(lasciare su false)
 Config.GroupGiocatore = {
-    helper = "HELPER",
-    mod = "~g~MODERATORE",
     admin = "~r~STAFF",
     superadmin = "~r~GESU'",
 }
 
 Config.Permessi = {
-    [1] = "HELPER",
-    [2] = "~g~MODERATORE",
-    [3] = "~b~STAFF",
-    [4] = "~r~GESU'",
-    [5] = "~r~GESU'",
+    [1] = "~b~STAFF",
+    [2] = "~r~GESU'",
 }
